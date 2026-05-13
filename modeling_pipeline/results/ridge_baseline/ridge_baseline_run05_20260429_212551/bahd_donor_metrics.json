@@ -1,0 +1,48 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "device": "cuda",
+  "family": "BAHD",
+  "feature_type": "function_logits_structure_steps10_mean_pool",
+  "kept_label_positive_counts": {
+    "donor_type::aliphatic": 175,
+    "donor_type::aromatic": 213
+  },
+  "kept_labels": [
+    "donor_type::aromatic",
+    "donor_type::aliphatic"
+  ],
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.8884123522814448,
+    "macro_auroc": 0.8819754507838415,
+    "micro_aupr": 0.8975674146495276,
+    "micro_auroc": 0.8867477823064014,
+    "num_folds": 5,
+    "num_labels": 2,
+    "num_samples": 366,
+    "per_label": [
+      {
+        "aupr": 0.9256898535281946,
+        "auroc": 0.8864340728466659,
+        "label": "donor_type::aromatic",
+        "positive_count": 213
+      },
+      {
+        "aupr": 0.851134851034695,
+        "auroc": 0.8775168287210171,
+        "label": "donor_type::aliphatic",
+        "positive_count": 175
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "random_seed": 42,
+  "ridge_params": {
+    "alpha": 714.05902047,
+    "class_weight": "balanced",
+    "fit_intercept": true
+  },
+  "task": "donor"
+}

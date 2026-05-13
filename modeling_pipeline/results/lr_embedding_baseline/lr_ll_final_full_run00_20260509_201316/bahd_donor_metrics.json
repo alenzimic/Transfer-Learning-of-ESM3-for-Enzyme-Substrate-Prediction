@@ -1,0 +1,103 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "device": "cpu",
+  "embedding_cache_match_key": "function_logit_paths",
+  "embedding_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_lastLayer_embeddings",
+  "embedding_glob": "*_hidden_layer_steps10.pt",
+  "family": "BAHD",
+  "feature_type": "esm3_last_layer_embedding_mean_pool",
+  "input_shape_example": [
+    436,
+    1536
+  ],
+  "kept_label_positive_counts": {
+    "donor_type::aliphatic": 175,
+    "donor_type::aromatic": 213
+  },
+  "kept_labels": [
+    "donor_type::aromatic",
+    "donor_type::aliphatic"
+  ],
+  "logistic_params": {
+    "C": 0.025787,
+    "class_weight": "balanced",
+    "fit_intercept": true,
+    "max_iter": 5000,
+    "penalty": "l2",
+    "solver": "liblinear",
+    "tol": 1e-06
+  },
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.9644814790387708,
+    "macro_auroc": 0.9629766140903182,
+    "micro_aupr": 0.9636564058180539,
+    "micro_auroc": 0.9615574802205706,
+    "num_folds": 5,
+    "num_labels": 2,
+    "num_samples": 366,
+    "per_fold_metrics": [
+      {
+        "fold": 0,
+        "macro_aupr": 0.9409969779329856,
+        "macro_auroc": 0.9387310007999663,
+        "micro_aupr": 0.9324565326013435,
+        "micro_auroc": 0.9323529411764706,
+        "n_test": 74
+      },
+      {
+        "fold": 1,
+        "macro_aupr": 0.9693154842551598,
+        "macro_auroc": 0.9662130958271482,
+        "micro_aupr": 0.9724325143295007,
+        "micro_auroc": 0.9668737060041408,
+        "n_test": 73
+      },
+      {
+        "fold": 2,
+        "macro_aupr": 0.9776669385524539,
+        "macro_auroc": 0.9825519268015761,
+        "micro_aupr": 0.9812037625908707,
+        "micro_auroc": 0.9815546772068511,
+        "n_test": 73
+      },
+      {
+        "fold": 3,
+        "macro_aupr": 0.946974873232961,
+        "macro_auroc": 0.9462211079858138,
+        "micro_aupr": 0.9480779119632355,
+        "micro_auroc": 0.9429107981220657,
+        "n_test": 73
+      },
+      {
+        "fold": 4,
+        "macro_aupr": 0.9869807418611882,
+        "macro_auroc": 0.9845022624434389,
+        "micro_aupr": 0.9872946728597818,
+        "micro_auroc": 0.9854524844133762,
+        "n_test": 73
+      }
+    ],
+    "per_label": [
+      {
+        "aupr": 0.9744974860820381,
+        "auroc": 0.9652950382030747,
+        "label": "donor_type::aromatic",
+        "positive_count": 213
+      },
+      {
+        "aupr": 0.9544654719955035,
+        "auroc": 0.9606581899775617,
+        "label": "donor_type::aliphatic",
+        "positive_count": 175
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "pooled_feature_dim": 1536,
+  "pooling": "mean",
+  "random_seed": 45,
+  "task": "donor"
+}

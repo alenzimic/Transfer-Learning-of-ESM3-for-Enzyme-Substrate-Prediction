@@ -1,0 +1,90 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "device": "cpu",
+  "family": "BAHD",
+  "feature_type": "function_logits_structure_steps10_mean_pool",
+  "kept_label_positive_counts": {
+    "donor_type::aliphatic": 175,
+    "donor_type::aromatic": 213
+  },
+  "kept_labels": [
+    "donor_type::aromatic",
+    "donor_type::aliphatic"
+  ],
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.9405850464197412,
+    "macro_auroc": 0.9534976283690807,
+    "micro_aupr": 0.9424446277745889,
+    "micro_auroc": 0.9532036681850875,
+    "num_folds": 5,
+    "num_labels": 2,
+    "num_samples": 366,
+    "per_fold_metrics": [
+      {
+        "fold": 0,
+        "macro_aupr": 0.9357149380574561,
+        "macro_auroc": 0.9264704644014989,
+        "micro_aupr": 0.9354612460768451,
+        "micro_auroc": 0.9227941176470589,
+        "n_test": 74
+      },
+      {
+        "fold": 1,
+        "macro_aupr": 0.9379576604270927,
+        "macro_auroc": 0.9425259138025096,
+        "micro_aupr": 0.9481594872991425,
+        "micro_auroc": 0.9444758140410314,
+        "n_test": 73
+      },
+      {
+        "fold": 2,
+        "macro_aupr": 0.919223455249004,
+        "macro_auroc": 0.9674636568044703,
+        "micro_aupr": 0.9254186877050962,
+        "micro_auroc": 0.9649915302089215,
+        "n_test": 73
+      },
+      {
+        "fold": 3,
+        "macro_aupr": 0.9347823474010426,
+        "macro_auroc": 0.9518772165830989,
+        "micro_aupr": 0.9426694538662442,
+        "micro_auroc": 0.9502347417840376,
+        "n_test": 73
+      },
+      {
+        "fold": 4,
+        "macro_aupr": 0.9763669588200257,
+        "macro_auroc": 0.9761826408885232,
+        "micro_aupr": 0.9826011806701676,
+        "micro_auroc": 0.9816739089363311,
+        "n_test": 73
+      }
+    ],
+    "per_label": [
+      {
+        "aupr": 0.9648804559913322,
+        "auroc": 0.9561201632452668,
+        "label": "donor_type::aromatic",
+        "positive_count": 213
+      },
+      {
+        "aupr": 0.91628963684815,
+        "auroc": 0.9508750934928946,
+        "label": "donor_type::aliphatic",
+        "positive_count": 175
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "random_seed": 45,
+  "ridge_params": {
+    "alpha": 0.47612701,
+    "class_weight": "balanced",
+    "fit_intercept": true
+  },
+  "task": "donor"
+}

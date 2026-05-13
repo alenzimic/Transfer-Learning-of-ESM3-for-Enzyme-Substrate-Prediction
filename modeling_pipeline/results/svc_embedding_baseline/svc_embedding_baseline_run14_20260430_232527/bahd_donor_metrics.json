@@ -1,0 +1,58 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "device": "cuda",
+  "embedding_cache_match_key": "function_logit_paths",
+  "embedding_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_lastLayer_embeddings",
+  "embedding_glob": "*_hidden_layer_steps10.pt",
+  "family": "BAHD",
+  "feature_type": "esm3_last_layer_embedding_mean_pool",
+  "input_shape_example": [
+    436,
+    1536
+  ],
+  "kept_label_positive_counts": {
+    "donor_type::aliphatic": 175,
+    "donor_type::aromatic": 213
+  },
+  "kept_labels": [
+    "donor_type::aromatic",
+    "donor_type::aliphatic"
+  ],
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.9537895558776446,
+    "macro_auroc": 0.9535590194258433,
+    "micro_aupr": 0.9563853170108978,
+    "micro_auroc": 0.9537356149604412,
+    "num_folds": 5,
+    "num_labels": 2,
+    "num_samples": 366,
+    "per_label": [
+      {
+        "aupr": 0.9724402587153731,
+        "auroc": 0.9598330725091287,
+        "label": "donor_type::aromatic",
+        "positive_count": 213
+      },
+      {
+        "aupr": 0.935138853039916,
+        "auroc": 0.9472849663425579,
+        "label": "donor_type::aliphatic",
+        "positive_count": 175
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "pooled_feature_dim": 1536,
+  "pooling": "mean",
+  "random_seed": 42,
+  "svc_params": {
+    "C": 9.16374181,
+    "class_weight": "balanced",
+    "gamma": 0.00015339,
+    "kernel": "rbf"
+  },
+  "task": "donor"
+}

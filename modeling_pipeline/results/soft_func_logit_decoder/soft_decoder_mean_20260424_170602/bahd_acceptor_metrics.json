@@ -1,0 +1,223 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "decoder_params": {
+    "batch_size": 8,
+    "d_model": 256,
+    "dropout": 0.1,
+    "epochs": 60,
+    "learning_rate": 0.0001,
+    "n_heads": 4,
+    "n_layers": 2,
+    "pooling": "mean",
+    "random_seed": 1,
+    "temperature": 1.0,
+    "weight_decay": 0.0001
+  },
+  "device": "cuda",
+  "family": "BAHD",
+  "feature_type": "function_logits_sequence_softmax_decoder",
+  "kept_label_positive_counts": {
+    "acceptor_superclass::Coumarins": 2,
+    "acceptor_superclass::Cyclic polyketides": 2,
+    "acceptor_superclass::Diterpenoids": 17,
+    "acceptor_superclass::Fatty Acids and Conjugates": 16,
+    "acceptor_superclass::Fatty acyls": 38,
+    "acceptor_superclass::Flavonoids": 42,
+    "acceptor_superclass::Isoflavonoids": 12,
+    "acceptor_superclass::Lignans": 2,
+    "acceptor_superclass::Lysine alkaloids": 5,
+    "acceptor_superclass::Monoterpenoids": 22,
+    "acceptor_superclass::Naphthalenes": 19,
+    "acceptor_superclass::Ornithine alkaloids": 43,
+    "acceptor_superclass::Phenanthrenoids": 3,
+    "acceptor_superclass::Phenolic acids (C6-C1)": 78,
+    "acceptor_superclass::Phenylethanoids (C6-C2)": 21,
+    "acceptor_superclass::Phenylpropanoids (C6-C3)": 40,
+    "acceptor_superclass::Pseudoalkaloids": 28,
+    "acceptor_superclass::Saccharides": 7,
+    "acceptor_superclass::Small peptides": 21,
+    "acceptor_superclass::Steroids": 5,
+    "acceptor_superclass::Triterpenoids": 9,
+    "acceptor_superclass::Tryptophan alkaloids": 15,
+    "acceptor_superclass::Tyrosine alkaloids": 14
+  },
+  "kept_labels": [
+    "acceptor_superclass::Coumarins",
+    "acceptor_superclass::Cyclic polyketides",
+    "acceptor_superclass::Diterpenoids",
+    "acceptor_superclass::Fatty Acids and Conjugates",
+    "acceptor_superclass::Fatty acyls",
+    "acceptor_superclass::Flavonoids",
+    "acceptor_superclass::Isoflavonoids",
+    "acceptor_superclass::Lignans",
+    "acceptor_superclass::Lysine alkaloids",
+    "acceptor_superclass::Monoterpenoids",
+    "acceptor_superclass::Naphthalenes",
+    "acceptor_superclass::Ornithine alkaloids",
+    "acceptor_superclass::Phenanthrenoids",
+    "acceptor_superclass::Phenolic acids (C6-C1)",
+    "acceptor_superclass::Phenylethanoids (C6-C2)",
+    "acceptor_superclass::Phenylpropanoids (C6-C3)",
+    "acceptor_superclass::Pseudoalkaloids",
+    "acceptor_superclass::Saccharides",
+    "acceptor_superclass::Small peptides",
+    "acceptor_superclass::Steroids",
+    "acceptor_superclass::Triterpenoids",
+    "acceptor_superclass::Tryptophan alkaloids",
+    "acceptor_superclass::Tyrosine alkaloids"
+  ],
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.34687533888895317,
+    "macro_auroc": 0.796932444743987,
+    "micro_aupr": 0.397619088048676,
+    "micro_auroc": 0.8598253301299257,
+    "num_folds": 5,
+    "num_labels": 23,
+    "num_samples": 366,
+    "per_label": [
+      {
+        "aupr": 0.2675438596491228,
+        "auroc": 0.923076923076923,
+        "label": "acceptor_superclass::Coumarins",
+        "positive_count": 2
+      },
+      {
+        "aupr": 0.05309139784946236,
+        "auroc": 0.9285714285714285,
+        "label": "acceptor_superclass::Cyclic polyketides",
+        "positive_count": 2
+      },
+      {
+        "aupr": 0.5029443306402172,
+        "auroc": 0.8638125737400977,
+        "label": "acceptor_superclass::Diterpenoids",
+        "positive_count": 17
+      },
+      {
+        "aupr": 0.38441491379096326,
+        "auroc": 0.8478571428571428,
+        "label": "acceptor_superclass::Fatty Acids and Conjugates",
+        "positive_count": 16
+      },
+      {
+        "aupr": 0.3933623494499686,
+        "auroc": 0.823451540436457,
+        "label": "acceptor_superclass::Fatty acyls",
+        "positive_count": 38
+      },
+      {
+        "aupr": 0.5328420951833078,
+        "auroc": 0.8333333333333333,
+        "label": "acceptor_superclass::Flavonoids",
+        "positive_count": 42
+      },
+      {
+        "aupr": 0.5068764125944978,
+        "auroc": 0.9625706214689266,
+        "label": "acceptor_superclass::Isoflavonoids",
+        "positive_count": 12
+      },
+      {
+        "aupr": 0.005995807127882599,
+        "auroc": 0.33104395604395603,
+        "label": "acceptor_superclass::Lignans",
+        "positive_count": 2
+      },
+      {
+        "aupr": 0.7433333333333334,
+        "auroc": 0.9850415512465374,
+        "label": "acceptor_superclass::Lysine alkaloids",
+        "positive_count": 5
+      },
+      {
+        "aupr": 0.22473125442440964,
+        "auroc": 0.7166358350951374,
+        "label": "acceptor_superclass::Monoterpenoids",
+        "positive_count": 22
+      },
+      {
+        "aupr": 0.8623985714189646,
+        "auroc": 0.9714849082360079,
+        "label": "acceptor_superclass::Naphthalenes",
+        "positive_count": 19
+      },
+      {
+        "aupr": 0.6106384487063122,
+        "auroc": 0.8725610195118438,
+        "label": "acceptor_superclass::Ornithine alkaloids",
+        "positive_count": 43
+      },
+      {
+        "aupr": 0.18488040377441298,
+        "auroc": 0.7594123048668503,
+        "label": "acceptor_superclass::Phenanthrenoids",
+        "positive_count": 3
+      },
+      {
+        "aupr": 0.8223416979761085,
+        "auroc": 0.9289529914529914,
+        "label": "acceptor_superclass::Phenolic acids (C6-C1)",
+        "positive_count": 78
+      },
+      {
+        "aupr": 0.10662345889350161,
+        "auroc": 0.6143547273982056,
+        "label": "acceptor_superclass::Phenylethanoids (C6-C2)",
+        "positive_count": 21
+      },
+      {
+        "aupr": 0.1961774737994126,
+        "auroc": 0.6500766871165645,
+        "label": "acceptor_superclass::Phenylpropanoids (C6-C3)",
+        "positive_count": 40
+      },
+      {
+        "aupr": 0.4328388487172919,
+        "auroc": 0.8438292476754015,
+        "label": "acceptor_superclass::Pseudoalkaloids",
+        "positive_count": 28
+      },
+      {
+        "aupr": 0.3139626702980156,
+        "auroc": 0.8710704337445285,
+        "label": "acceptor_superclass::Saccharides",
+        "positive_count": 7
+      },
+      {
+        "aupr": 0.22521972929704376,
+        "auroc": 0.8652864044168391,
+        "label": "acceptor_superclass::Small peptides",
+        "positive_count": 21
+      },
+      {
+        "aupr": 0.20029992614238465,
+        "auroc": 0.8083102493074792,
+        "label": "acceptor_superclass::Steroids",
+        "positive_count": 5
+      },
+      {
+        "aupr": 0.027409412455464813,
+        "auroc": 0.4643635231870526,
+        "label": "acceptor_superclass::Triterpenoids",
+        "positive_count": 9
+      },
+      {
+        "aupr": 0.20391932501609855,
+        "auroc": 0.724596391263058,
+        "label": "acceptor_superclass::Tryptophan alkaloids",
+        "positive_count": 15
+      },
+      {
+        "aupr": 0.1762870739077461,
+        "auroc": 0.739752435064935,
+        "label": "acceptor_superclass::Tyrosine alkaloids",
+        "positive_count": 14
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "task": "acceptor"
+}

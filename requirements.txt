@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+torch
+lightgbm
+xgboost
+python-dotenv
+huggingface-hub
+openpyxl
+esm

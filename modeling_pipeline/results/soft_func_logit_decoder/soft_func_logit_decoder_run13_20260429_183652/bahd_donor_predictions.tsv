@@ -1,0 +1,367 @@
+fasta_id	enzyme_id	true_labels	predicted_labels	true_vector	pred_vector	score_vector
+Aagr_HCT6_QPI70575.1	Aagr_HCT6_QPI70575.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008722
+Aagr_HFT-like_Aagr000038l.49.1	Aagr_HFT-like_Aagr000038l.49.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013757,0.001978
+Abel_TS_WPF47615.1	Abel_TS_WPF47615.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-4.541013,4.365308
+Achi_AT16_PSS01274.1	Achi_AT16_PSS01274.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	1,1	1,1	0.013747,0.001975
+Achi_FHT_PSR89440.1	Achi_FHT_PSR89440.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010180,0.011794
+Aeri_AT9_AIC83789.1	Aeri_AT9_AIC83789.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.011146,0.012369
+Aeuc_AAT1_BDW80083.1	Aeuc_AAT1_BDW80083.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011175,0.012383
+Aeuc_AAT2_BDW80089.1	Aeuc_AAT2_BDW80089.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013771,0.001982
+Aeuc_SAT2_BDW80080.1	Aeuc_SAT2_BDW80080.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.841362,4.232361
+Amem_AT7-3_WMQ79387.1	Amem_AT7-3_WMQ79387.1	donor_type::aliphatic		0,1	0,0	-0.025712,-0.008722
+Arac_HPT1_QAA12830.1	Arac_HPT1_QAA12830.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.353552,-5.416695
+Asat_HCBT_BAC78635.1	Asat_HCBT_BAC78635.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010045,0.011712
+Asat_HHT1_BAC78633.1	Asat_HHT1_BAC78633.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008719
+Asat_HHT4_QDC27803.1	Asat_HHT4_QDC27803.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009962,0.011664
+Asch_AKS1_URS65387.1	Asch_AKS1_URS65387.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008729
+Asch_AKS2_URS65388.1	Asch_AKS2_URS65388.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013724,0.001968
+Asin_FMT_AHL24755.1	Asin_FMT_AHL24755.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008729
+Atha_3AT1_AEE27636.1	Atha_3AT1_AEE27636.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.011890,0.012805
+Atha_3AT2_AAF86513.1	Atha_3AT2_AAF86513.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.012511,0.013177
+Atha_5MAT_BAB01191.1	Atha_5MAT_BAB01191.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.529790,4.097271
+Atha_ACT1_NP_200924.1	Atha_ACT1_NP_200924.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-4.809288,4.496459
+Atha_HHT1_AAL34170.1	Atha_ASFT_NP_851111.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.323724,-4.695308
+Atha_AT3G47170_NP_190301.2	Atha_AT3G47170_NP_190301.2	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013737,0.001970
+Atha_PHT_OAO95042.1	Atha_AT5G07080_OAO95042.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008733
+Atha_BIA1_CAB10319.1	Atha_BIA1_CAB10319.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.845171,4.234993
+Atha_CHAT_AAN09797.1	Atha_CHAT_AAN09797.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013743,0.001975
+Atha_COSY_AEE31013.1	Atha_COSY_AEE31013.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013725,0.001969
+Atha_DCF_AAQ62868.1	Atha_DCF_AAQ62868.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009970,0.011663
+Atha_EPS1_NP_201517.1	Atha_EPS1_NP_201517.1		donor_type::aliphatic	0,0	0,1	-3.613892,4.194281
+Atha_FACT_AAN13119.1	Atha_FACT_AAN13119.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008737
+Atha_GGES_AED96958.1	Atha_GGES_AED96958.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	1,1	1,1	0.013741,0.001971
+Atha_HCT_BAB10316.1	Atha_HCT_BAB10316.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.373202,-4.744925
+Atha_HHT1_AAL34170.1	Atha_HHT1_AAL34170.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.323724,-4.695308
+Atha_FACT_AAN13119.1	Atha_HHT3_NP_201161.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.431567,-4.335495
+Atha_HHT1_AAL34170.1	Atha_HHT_AAL34170.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.323724,-4.695308
+Atha_PHT_OAO95042.1	Atha_PHT_OAO95042.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.370303,-4.741834
+Atha_PMAT1_AED94391.1	Atha_PMAT1_AED94391.1	donor_type::aliphatic	donor_type::aromatic	0,1	1,0	7.422596,-5.366599
+Atha_PMAT2_BAB02518.1	Atha_PMAT2_BAB02518.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013717,0.001965
+Atha_SCT_AAP81804.1	Atha_SCT_AAP81804.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008727
+Atha_SDT_AAC23766.1	Atha_SDT_AAC23766.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008730
+Atha_SHT_AAD12025.1	Atha_SHT_AAD12025.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.374679,-4.745504
+Atha_PHT_OAO95042.1	Atha_SHT_OAO95042.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010531,0.012011
+Atha_THAA1_BAB11062.1	Atha_THAA1_BAB11062.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008728
+Atha_THAA2_AAO63428.1	Atha_THAA2_AAO63428.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013720,0.001968
+Bdis_PMT_CDG41682.1	Bdis_PMT_CDG41682.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.371480,-4.741751
+Bmul_HQT1_BCY27076.1	Bmul_HQT1_BCY27076.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.468320,-4.084878
+Bmul_HQT1_BDR61289.1	Bmul_HQT1_BDR61289.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.371264,-4.745244
+Bser_AT1_QXN66176.1	Bser_AT1_QXN66176.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-2.809070,3.476561
+Cang_AT20_QLI57449.1	Cang_AT20_QLI57449.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	1,1	1,1	1.468567,1.486379
+Cann_AT3_NP_001311698.1	Cann_AT3_NP_001311698.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013725,0.001969
+Cblu_HCT_CBI83579.1	Cblu_HCT_CBI83579.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013757,0.001977
+Cblu_HCT_CBI83579.1	Cblu_HST_CBI83579.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008724
+Cblu_RAS_CAK55166.1	Cblu_RAS_CAK55166.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.406725,-5.499557
+Cbra_HQT-like_GBG71902.1	Cbra_HQT-like_GBG71902.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-3.125741,3.649173
+Cbre_BEAT_AAC18062.1	Cbre_BEAT_AAC18062.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.687578,4.433862
+Cbre_BEBT_AAN09796.1	Cbre_BEBT_AAN09796.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	3.015591,-0.938430
+Ccan_HCT_ABO47805.1	Ccan_HCT_ABO47805.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.380370,-5.461251
+Ccan_HQT_ABO77957.1	Ccan_HQT_ABO77957.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.378446,-5.457835
+Ccar_HCT_AAZ80046.1	Ccar_HCT_AAZ80046.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008725
+Ccar_HQT1_CAM84302.2	Ccar_HQT1_CAM84302.2	donor_type::aromatic		1,0	0,0	-0.025711,-0.008733
+Ccar_HQT2_ACJ23164.1	Ccar_HQT2_ACJ23164.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.376699,-5.455959
+Ccar_HQT_ABK79689.1	Ccar_HQT_ABK79689.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.351765,-5.412046
+Ccar_HQT_ABK79690.1	Ccar_HQT_ABK79690.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009691,0.011502
+Cchi_AT3_AAV66309.1	Cchi_AT3_AAV66309.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.843314,4.233609
+Ccro_AT1_AXB26761.1	Ccro_AT1_AXB26761.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	1,1	1,1	0.013741,0.001972
+Ccro_AT1_AXB26761.1	Ccro_AT2_AXB26761.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.010764,0.012140
+Ccro_AT2_AXB26762.1	Ccro_AT2_AXB26762.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	1,1	1,1	4.743759,0.985960
+Ccro_HCT_WKA69991.1	Ccro_HCT_WKA69991.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009723,0.011521
+Cint_HCT1_ANN12608.1	Cint_HCT1_ANN12608.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013775,0.001982
+Cint_HCT2_ANN12609.1	Cint_HCT2_ANN12609.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.388224,-4.743752
+Cint_HQT1_ANN12610.1	Cint_HQT1_ANN12610.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008734
+Cint_HQT2_ANN12611.1	Cint_HQT2_ANN12611.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013758,0.001976
+Cint_HQT3_ANN12612.1	Cint_HQT3_ANN12612.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013757,0.001976
+Cint_SHT1_AXY93625.1	Cint_SHT1_AXY93625.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008720
+Cint_SHT2_AXY93626.1	Cint_SHT2_AXY93626.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.387466,-5.472768
+Cmel_AAT1_CAA94432.1	Cmel_AAT1_CAA94432.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	3.462615,0.326729
+Cmel_AAT3_AAW51125.1	Cmel_AAT3_AAW51125.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013723,0.001969
+Cmel_AAT4_AAW51126.1	Cmel_AAT4_AAW51126.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.435707,4.192353
+Cros_DAT_AAC99311.1	Cros_DAT_AAC99311.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011039,0.012307
+Cros_MAT_AAO13736.1	Cros_MAT_AAO13736.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.813848,4.230729
+Cros_TAT_AQP25667.1	Cros_TAT_AQP25667.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008725
+Csat_HCT_AEJ88365.1	Csat_HCT_AEJ88365.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009278,0.011254
+Csco_HQT1_CAM84302.2	Csco_HQT1_CAM84302.2	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.382267,-5.467731
+Csco_HQT2_ACJ23164.1	Csco_HQT2_ACJ23164.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013755,0.001975
+Csin_AT1_THG04858.1	Csin_AT1_THG04858.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.191677,4.083935
+Csin_AT2_THG19836.1	Csin_AT2_THG19836.1	donor_type::aliphatic		0,1	0,0	-0.025712,-0.008729
+Csin_CHAT1_GMQ03793.1	Csin_CHAT1_GMQ03793.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013758,0.001979
+Csin_HCT1_XP_028081726.1	Csin_HCT1_XP_028081726.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013789,0.001985
+Csin_HCT2_THG02040.1	Csin_HCT2_THG02040.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008724
+Dcar_HCBT3_CAB06429.1	Dcar_HCBT1_CAB06427.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009469,0.011363
+Dcar_HCBT2_CAB06430.1	Dcar_HCBT2_CAB06430.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008724
+Dcar_HCBT3_CAB06429.1	Dcar_HCBT3_CAB06429.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008726
+Dlan_MAT1_QUW17232.1	Dlan_MAT1_QUW17232.1	donor_type::aliphatic		0,1	0,0	-0.025712,-0.008730
+Dlan_MAT2_QWS71079.1	Dlan_MAT2_QWS71079.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.012094,0.012928
+Dmor_3MAT1_AAQ63615.1	Dmor_3MAT1_AAQ63615.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.731530,4.465889
+Dmor_3MAT2_AAQ63616.1	Dmor_3MAT2_AAQ63616.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.013950,0.014032
+Dmor_3MAT3_BAF50706.1	Dmor_3MAT3_BAF50706.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.720468,4.435555
+Dpin_3MAT_AAO12206.1	Dpin_3MAT_AAO12206.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.696615,4.432932
+Dvar_3MAT_AAO12206.1	Dvar_3MAT_AAO12206.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.696615,4.432932
+Ecoc_CS_AGT56097.1	Ecoc_BAHD7_AGT56097.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	3.504212,-1.719991
+Ecoc_CS_AGT56097.1	Ecoc_CS_AGT56097.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008729
+Ecoc_HQT_AFF19203.1	Ecoc_HQT_AFF19203.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.373517,-4.745475
+Egra_5AT_BAF49288.1	Egra_5AT_BAF49288.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.012424,0.013152
+Epep_BAHD11_NA	Epep_BAHD11_NA	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.832968,4.523650
+Epep_BAHD12_NA	Epep_BAHD12_NA	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013725,0.001968
+Epep_BAHD6_NA	Epep_BAHD6_NA	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008727
+Epep_BAHD7_NA	Epep_BAHD7_NA	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.010790,0.012158
+Epep_BAHD8_NA	Epep_BAHD8_NA	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008723
+Epla_AAT1-1_BDW80081.1	Epla_AAT1-1_BDW80081.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.843263,4.234514
+Epla_AAT1-2_BDW80082.1	Epla_AAT1-2_BDW80082.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013725,0.001970
+Epla_AAT2-1_BDW80086.1	Epla_AAT2-1_BDW80086.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.842789,4.234630
+Epla_AAT2-2_BDW80087.1	Epla_AAT2-2_BDW80087.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008735
+Epla_AAT2-3_BDW80088.1	Epla_AAT2-3_BDW80088.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008735
+Epla_SAT1-1_BDW80075.1	Epla_SAT1-1_BDW80075.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.839685,4.232271
+Epla_SAT1-2_BDW80076.1	Epla_SAT1-2_BDW80076.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.722782,4.433165
+Epla_SAT2-1_BDW80078.1	Epla_SAT2-1_BDW80078.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013743,0.001973
+Epla_SAT2-2_BDW80079.1	Epla_SAT2-2_BDW80079.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.842957,4.233192
+Epur_HCT_QRI59128.1	Epur_HCT_QRI59128.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010030,0.011702
+Epur_HMT_UHJ19789.2	Epur_HMT_UHJ19789.2	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.395936,-5.485787
+Epur_HQT_QRI59127.1	Epur_HQT_QRI59127.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008725
+Epur_HTT_QRI59126.1	Epur_HTT_QRI59126.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008722
+Fana_SAAT_AAG13130.1	Fana_SAAT_AAG13130.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013728,0.001969
+Fves_VAAT_CAC09062.1	Fves_VAAT_CAC09062.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011417,0.012530
+Gmax_COSY_KRH21316.1	Gmax_COSY_KRH21316.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010972,0.012260
+Gmax_MT7_ABY59019.1	Gmax_IF7MAT_NP_001237760.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011475,0.012563
+Gmax_IMAT1_AQY54373.1	Gmax_IMAT1_AQY54373.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.013384,0.013703
+Gmax_IMAT3_AQY54374.1	Gmax_IMAT3_AQY54374.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013718,0.001964
+Gmax_MT7_ABY59019.1	Gmax_MT7_ABY59019.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011475,0.012563
+Gmax_SSACT1_KRH01153.1	Gmax_SSACT1_KRH01153.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.846212,4.233261
+Gtri_53AAT_BAA74428.1	Gtri_53AAT_BAA74428.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013753,0.001974
+Gtri_53AAT_BAA74428.1	Gtri_5AT_BAA74428.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.812009,-2.569607
+Gtri_53AAT_BAA74428.1	Gtri_GAT_BAA74428.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008727
+Hann_HCT1_QBM78941.1	Hann_HCT1_QBM78941.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009866,0.011603
+Hann_HCT2_QBM78942.1	Hann_HCT2_QBM78942.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013744,0.001973
+Hann_HQT1_QBM78938.1	Hann_HQT1_QBM78938.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.367702,-4.744791
+Hann_HQT2_QBM78939.1	Hann_HQT2_QBM78939.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.371734,-4.744839
+Hann_HQT3_QBM78940.1	Hann_HQT3_QBM78940.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013750,0.001974
+Hcan_PMT_KAL4341785.1	Hcan_PMT_KAL4341785.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.885023,1.875544
+Hmur_ACT_BCN87077.1	Hmur_ACT_BCN87077.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008726
+Hpol_BAHD3_NA	Hpol_BAHD3_NA	donor_type::aliphatic		0,1	0,0	-0.025712,-0.008730
+Hvul_ACT1-1_AAO73071.1	Hvul_ACT1-1_AAO73071.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.417691,-5.509130
+Hvul_ACT1-1_BAF97626	Hvul_ACT1-1_BAF97626	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013791,0.001985
+Hvul_ACT1-2_BAF97627.1	Hvul_ACT1-2_BAF97627	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.380822,-4.743511
+Hvul_ACT1-2_BAF97627.1	Hvul_ACT1-2_BAF97627.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013793,0.001985
+Hvul_ACT2_BAK00935.1	Hvul_ACT2_BAK00935.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013807,0.001989
+Hvul_ACT1-1_AAO73071.1	Hvul_ACT_AAO73071.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.417691,-5.509130
+Ibat_HQT_BAA87043.1	Ibat_HQT_BAA87043.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010106,0.011755
+Ihol_3AT1_BAE72676.1	Ihol_3AT1_BAE72676.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.011707,0.012708
+Ihol_3AT2_BAE94328.1	Ihol_3AT2_BAE94328.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.442679,-5.007697
+Jsam_BEAT1_UJH94663.1	Jsam_BEAT1_UJH94663.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic	1,1	1,0	7.506586,-5.250759
+Jsam_BEAT2_UJH94664.1	Jsam_BEAT2_UJH94664.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.010454,0.011967
+Lalb_HMT_BAD89275.1	Lalb_HMT_BAD89275.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.578574,2.477518
+Lang_RAS_ABI48360.1	Lang_AAT1_ABI48360.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.327423,-5.371188
+Lang_RAS_ABI48360.1	Lang_AT1_ABI48360.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013749,0.001974
+Lang_RAS_ABI48360.1	Lang_RAS_ABI48360.1	donor_type::aromatic		1,0	0,0	-0.025712,-0.008723
+Lang_RAS_AEA36976.1	Lang_RAS_AEA36976.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013759,0.001977
+Lery_AAT1_BBV14786.1	Lery_AAT1_BBV14786.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013738,0.001974
+Lery_AAT2_BDW80085.1	Lery_AAT2_BDW80085.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.840590,4.231291
+Lery_SAT1_BBV14785.1	Lery_SAT1_BBV14785.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008734
+Lery_SAT2_BDW80077.1	Lery_SAT2_BDW80077.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011444,0.012539
+Lint_AAT-3_AIW81431.1	Lint_AAT-3_AIW81431.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008730
+Lint_AAT-4_AIW81432.1	Lint_AAT-4_AIW81432.1	donor_type::aliphatic		0,1	0,0	-0.025712,-0.008719
+Ljap_HQT_ACZ52698.1	Ljap_HQT_ACZ52698.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009812,0.011568
+Lori_AAT1_WKK95849.1	Lori_AAT1_WKK95849.1	donor_type::aromatic		1,0	0,0	-0.025712,-0.008727
+Lpur_3MAT1_AAS77404.1	Lpur_3MAT1_AAS77404.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.484076,4.066629
+Lrob_AT1_WEX29780.1	Lrob_AT1_WEX29780.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008720
+Lsat_BOS_QYL33117.1	Lsat_BOS_QYL33117.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013766,0.001979
+Lsat_BOS_QYL33117.1	Lsat_DS_QYL33117.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008733
+Ltri_CAAT1_AHA90802.1	Ltri_CAAT1_AHA90802.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.705869,4.191897
+Maze_AT1704_NA	Maze_AT1704_NA	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.010434,0.011936
+Maze_AT8824_KAJ4723782.1	Maze_AT8824_KAJ4723782.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.667939,4.398236
+Mdom_AAT1_AAU14879.2	Mdom_AAT1_AAU14879.2	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.012246,0.013031
+Mdom_SHT_ALF00095.1	Mdom_SHT_ALF00095.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010720,0.012114
+Mema_HFT_NA	Mema_HFT_NA	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.011541,0.012616
+Mlon_AT1_NA	Mlon_AT1_NA	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.387132,-4.744466
+Mlon_AT2_NA	Mlon_AT2_NA	donor_type::aromatic		1,0	0,0	-0.025711,-0.008719
+Mlon_AT1_NA	Mlon_AT3_NA	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.385306,-5.469549
+Mlon_AT4_NA	Mlon_AT4_NA	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.375876,-4.744884
+Mlon_AT6_NA	Mlon_AT6_NA	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013768,0.001981
+Moff_RAS_CBW35684.1	Moff_RAS_CBW35684.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008720
+Mpal_HCT_AXN55971.1	Mpal_HCT_AXN55971.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.011214,0.012408
+Mpol_HCT_PTQ49430.1	Mpol_HCT_PTQ49430.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.354337,-5.421537
+Msap_AAT_CAC09063.1	Msap_AAT_CAC09063.1	donor_type::aliphatic	donor_type::aromatic	0,1	1,0	6.186129,-2.662061
+Mtru_MAT1_ABY91220.1	Mtru_MAT1_ABY91220.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.765914,4.461698
+Mtru_MAT2_ABY91222.1	Mtru_MAT2_ABY91222.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.697713,4.215590
+Mtru_MAT3_ABY91221.1	Mtru_MAT3_ABY91221.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008736
+Natt_AT1_AET80688.1	Natt_AT1_AET80688.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010894,0.012226
+Natt_DH29_AET80686.1	Natt_DH29_AET80686.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-3.615445,4.186459
+Ntab_ASAT1_XP_016480914.1	Ntab_ASAT1_XP_016480914.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.013313,0.013662
+Ntab_ASAT2_XP_016451255.1	Ntab_ASAT2_XP_016451255.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.840740,4.232598
+Ntab_BEBT_AAN09798.1	Ntab_BEBT_AAN09798.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	3.460028,0.329209
+Ntab_HCT_CAD47830.1	Ntab_HCT_CAD47830.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008725
+Ntab_HQT_CAE46932.1	Ntab_HQT_CAE46932.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.375689,-4.745353
+Ntab_MAT1_BAD93691.1	Ntab_MAT1_BAD93691.1	donor_type::aliphatic	donor_type::aromatic	0,1	1,0	7.410318,-5.131754
+Ntab_SHT_QNO39110.1	Ntab_SHT_QNO39110.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic	1,1	1,0	7.422176,-5.508946
+Obas_CAAT1_QKK36036.1	Obas_CAAT1_QKK36036.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013733,0.001971
+Obas_CAAT2_QKK36037.1	Obas_CAAT2_QKK36037.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013717,0.001968
+Oeur_AT1_XP_022859703.1	Oeur_AT1_XP_022859703.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008720
+Osat_AHT1_CAE03579.1	Osat_AHT1_CAE03579.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.450612,-5.495651
+Osat_AT10_BAD33123.1	Osat_AT10_BAD33123.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.370451,-4.744753
+Osat_DPW2_BAS75979.1	Osat_DPW2_BAS75979.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.415103,-5.508834
+Osat_FMT_BAF16996.1	Osat_FMT_BAF16996.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010752,0.012141
+Osat_HCT4_BAD72437.1	Osat_HCT4_BAD72437.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-4.763792,4.479679
+Osat_MAT-2_BAG96218.1	Osat_MAT-2_BAG96218.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013736,0.001972
+Osat_PHT2_BAD72527.1	Osat_PHT2_BAD72527.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008720
+Osat_PHT3_BAC79154.1	Osat_PHT3_BAC79154.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.368601,-4.743191
+Osat_PHT4_BAC79155.1	Osat_PHT4_BAC79155.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010136,0.011770
+Osat_PHT4_BAC79155.1	Osat_PHT_BAC79155.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.368631,-4.742928
+Osat_PMT1_BAG87540.1	Osat_PMT1_BAG87540.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.010223,0.011825
+Osat_PMT2_BAG91648.1	Osat_PMT2_BAG91648.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013746,0.001974
+Osat_TBT1_ANQ47375.1	Osat_TBT1_ANQ47375.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	3.711556,0.047069
+Osat_TBT2_ANQ47376.1	Osat_TBT2_ANQ47376.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.127553,-4.418544
+Osat_THT1_ANQ47373.1	Osat_THT1_ANQ47373.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.362713,-4.740933
+Osat_THT2_AAM74310.1	Osat_THT2_AAM74310.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008735
+Paff_BAHD21_NA	Paff_BAHD21_NA	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-4.504613,4.471523
+Papp_HCT_AXN55972.1	Papp_HCT_AXN55972.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013729,0.001966
+Paxi_ASAT1_AOR06331.1	Paxi_ASAT1_AOR06331.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013674,0.001953
+Paxi_ASAT1_AOR06331.1	Paxi_ASAT2_AOR06331.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.468840,4.245480
+Paxi_ASAT3_AOR06333.1	Paxi_ASAT3_AOR06333.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008728
+Paxi_ASAT4_AOR06334.1	Paxi_ASAT4_AOR06334.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.014071,0.014123
+Paxi_CFAT_ABG75942.1	Paxi_CFAT_ABG75942.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.605268,4.336423
+Pbar_AT1_WEX29777.1	Pbar_AT1_WEX29777.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008719
+Pcam_HCT_QDF44405.1	Pcam_HCT_QDF44405.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.386255,-4.744246
+Pcam_HQT_QDF44406.1	Pcam_HQT_QDF44406.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008728
+Pcam_RAS_QDF44407.1	Pcam_RAS_QDF44407.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010737,0.012127
+Pcru_3MAT_AAO38058.1	Pcru_3MAT_AAO38058.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008728
+Pfru_3AT_BAA93475.1	Pfru_3AT_BAA93475.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013734,0.001971
+Phyb_AAT_AAW31948.1	Phyb_AAT_AAW31948.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008732
+Phyb_BPBT_AAU06226.1	Phyb_BPBT_AAU06226.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic	1,1	1,0	3.326269,-2.179311
+Phyb_CFAT_ABG75942.1	Phyb_CFAT_ABG75942.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.605268,4.336423
+Pnig_PAS_QUS53101.1	Pnig_BAHD1_QUS53101.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.013987,0.014080
+Pnig_PS_QUS53100.1	Pnig_BAHD2_QUS53100.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	3.631168,0.182635
+Pnig_HCT1_AEN02914.1	Pnig_HCT1_AEN02914.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.378549,-4.708533
+Pnig_PAS_QUS53101.1	Pnig_PAS_QUS53101.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.616085,2.553278
+Pnig_PHT1_BGB46908.1	Pnig_PHT1_BGB46908.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008739
+Pnig_PS_QUS53100.1	Pnig_PS_QUS53100.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013728,0.001970
+Post_DPBT_Pos.gene30573	Post_DPBT_Pos.gene30573	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.011274,0.012456
+Ppat_HCT1_AMK38063.1	Ppat_HCT1_AMK38063.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013752,0.001970
+Ppat_HCT1_AMK38063.1	Ppat_HCT_AMK38063.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010949,0.012262
+Pper_AAT1_QEZ90730.1	Pper_AAT1_QEZ90730.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013729,0.001970
+Prad_HCT_ABO52899.1	Prad_HCT_ABO52899.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.480751,-1.786531
+Pscu_HCT2_CBI83579.1	Pscu_HCT2_CBI83579.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013757,0.001977
+Pscu_RAS_CAK55166.1	Pscu_RAS_CAK55166.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.381418,-4.744446
+Psom_SALAT_AAK73661.1	Psom_SALAT_AAK73661.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013717,0.001968
+Ptri_BEBT_AJD25145.1	Ptri_BEBT_AJD25145.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.014230,0.014219
+Ptri_FHT1_AGJ03151.1	Ptri_FHT1_AGJ03151.1	donor_type::aromatic		1,0	0,0	-0.025710,-0.008740
+Ptri_HBMT1_PNT60021.1	Ptri_HBMT1_PNT60021.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	1.643667,-0.785324
+Ptri_HCT6_PNT52620.1	Ptri_HCT6_PNT52620.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009519,0.011398
+Ptri_HBMT1_PNT60021.1	Ptri_PHBMT1_AJD79571.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aromatic	1,1	1,0	1.643667,-0.785324
+Ptri_SABT_AJD25144.1	Ptri_SABT_AJD25144.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.014392,0.014318
+Pvir_FMT_KAG2630178.1	Pvir_FMT_KAG2630178.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009342,0.011292
+Pvir_HCT1a_BAO20883.1	Pvir_HCT1a_BAO20883.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.362816,-5.430401
+Pvir_HCT2a_AGM90558.1	Pvir_HCT2a_AGM90558.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013743,0.001971
+Pvir_PMT_KAG2616253.1	Pvir_PMT_KAG2616253.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.463994,-4.984275
+Pvul_HHHT_AOX15526.1	Pvul_HHHT_AOX15526.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013720,0.001966
+Rcan_SHT_QNO39111.1	Rcan_SHT_QNO39111.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013737,0.001970
+Rcom_SHT_QNO39108.1	Rcom_SHT_QNO39108.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.008806,0.010971
+Rglu_AT1_WEX29776.1	Rglu_AT1_WEX29776.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.368132,-4.745369
+Rhyb_AAT1_AAW31948.1	Rhyb_AAT1_AAW31948.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008732
+Rser_VS_CAD89104.2	Rser_ACT_CAD89104.2	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.650919,4.385625
+Rser_VS_CAD89104.2	Rser_VS_CAD89104.2	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008723
+Rser_YAT_PQ801655	Rser_YAT_PQ801655	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008734
+Sbic_COSY_OQU75851.1	Sbic_COSY_OQU75851.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-1.966020,3.282253
+Sbic_FMT_EES15804.1	Sbic_FMT_EES15804.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	3.859596,-0.246223
+Sbic_HCT_EES05411.1	Sbic_HCT_EES05411.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013741,0.001971
+Sbic_PMT_EES17668.1	Sbic_PMT_EES17668.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013744,0.001974
+Sche_AAT10422_BCJ78482.1	Sche_AAT10422_BCJ78482.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013720,0.001967
+Schi_CFAT_URQ03862.1	Schi_CFAT_URQ03862.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.496099,4.288028
+Schm_AAT11306_BCJ78485.1	Schm_AAT11306_BCJ78485.1	donor_type::aliphatic		0,1	0,0	-0.025712,-0.008728
+Scru_3MAT_AAO38058	Scru_3MAT_AAO38058	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008728
+Sfal_HFT-like_KAH8954438.1	Sfal_HFT-like_KAH8954438.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009238,0.011234
+Sgal_AAT10483_BCJ78483.1	Sgal_AAT10483_BCJ78483.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.012252,0.013029
+Sgla_HQT1_WYJ75404.1	Sgla_HQT1_WYJ75404.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009936,0.011648
+Sgla_HQT2_WYJ75406.1	Sgla_HQT2_WYJ75406.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010417,0.011931
+Sgla_HST_WYJ75403.1	Sgla_HST_WYJ75403.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.336410,-5.387510
+Sgla_RAS_WYJ75405.1	Sgla_RAS_WYJ75405.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.369431,-4.744172
+Shab_AAT11777_BCJ78486.1	Shab_AAT11777_BCJ78486.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013719,0.001966
+Shab_ASAT2_ALU64009.1	Shab_ASAT2_ALU64009.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011817,0.012766
+Shab_ASAT3-F_AJF98584.1	Shab_ASAT3-F_AJF98584.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.843356,4.233257
+Shab_ASAT3-P_AJF98591.1	Shab_ASAT3-P_AJF98591.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013737,0.001972
+Sind_AT1_BEE35702.1	Sind_AT1_BEE35702.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013778,0.001982
+Sind_AT2_BEE35703.1	Sind_AT2_BEE35703.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013760,0.001976
+Sind_AT1_BEE35702.1	Sind_SHCT_XP_011083883.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013778,0.001982
+Slyc_AAT1_XP_004244681.1	Slyc_AAT1_XP_004244681.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011146,0.012364
+Slyc_PHT1_UTQ10234.1	Slyc_ACT2_XP_004251197.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.011048,0.012320
+Slyc_ASAT1_NP_001316332.1	Slyc_ASAT1_NP_001316332.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008724
+Slyc_ASAT2_ALU64015.1	Slyc_ASAT2_ALU64015.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.833341,4.526371
+Slyc_ASAT3_AJF98582.1	Slyc_ASAT3_AJF98582.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.013086,0.013529
+Slyc_ASAT4_AFM77971.1	Slyc_ASAT4_AFM77971.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013751,0.001971
+Slyc_GAME36_XP_004246214.1	Slyc_GAME36_XP_004246214.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008740
+Slyc_HCT_XP_004235891.1	Slyc_HCT_XP_004235891.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008725
+Slyc_HQT_CAE46933.1	Slyc_HQT_CAE46933.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010240,0.011834
+Slyc_PHT1_UTQ10234.1	Slyc_PHT1_UTQ10234.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	4.960731,-4.028251
+Slyc_PHT2_UTQ10235.1	Slyc_PHT2_UTQ10235.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.430992,-5.506870
+Slyc_SHT_QNO39109.1	Slyc_SHT_QNO39109.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.397458,-5.488017
+Smel_SHT_AKP24035.1	Smel_SHT_AKP24035.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-2.183603,3.246609
+Smoe_HCT1a_XP_002979061.1	Smoe_HCT1a_XP_002979061.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.009655,0.011477
+Sneo_AAT10247_BCJ78484.1	Sneo_AAT10247_BCJ78484.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013730,0.001970
+Snig_AGAT1_WES72146.1	Snig_AGAT1_WES72146.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.697804,4.406450
+Snig_ASAT1_ART34015.1	Snig_ASAT1_ART34015.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.682492,4.445425
+Snig_ASAT2_WES72145.1	Snig_ASAT2_WES72145.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.771201,4.473885
+Snux_AT_UQZ09626.1	Snux_AT_UQZ09626.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.844399,4.232704
+Soff_AAT1_BDW80084.1	Soff_AAT1_BDW80084.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011876,0.012803
+Sole_SOAP10_KNA12459.1	Sole_SOAP10_KNA12459.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-2.295680,2.937114
+Some_HCT_EFJ20018.1	Some_HCT_EFJ20018.1	donor_type::aromatic		1,0	0,0	-0.025712,-0.008718
+Spen_AAT12560_BCJ78487.1	Spen_AAT12560_BCJ78487.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013730,0.001970
+Spen_AAT1_AIW04708.1	Spen_AAT1_AIW04708.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.012459,0.013153
+Spen_ASAT2_ALU64005.1	Spen_ASAT2_ALU64005.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.841609,4.234856
+Spen_ASAT3_AJF98583.1	Spen_ASAT3_AJF98583.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013730,0.001970
+Spim_AAT11589_BCJ78481.1	Spim_AAT11589_BCJ78481.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.649898,4.369411
+Spot_AT_UQZ09635.1	Spot_AT_UQZ09635.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.013566,0.013820
+Squi_ASAT1H_UTN00742.1	Squi_ASAT1H_UTN00742.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.012629,0.013244
+Squi_ASAT3H_UTN00743.1	Squi_ASAT3H_UTN00743.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008731
+Squi_ASAT4H_QNR60312.1	Squi_ASAT4H_QNR60312.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013735,0.001972
+Squi_TAIAT_QNR60311.1	Squi_TAIAT_QNR60311.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.842544,4.232057
+Sric_SHT_AMB21755.1	Sric_SHT_AMB21755.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008733
+Ssin_ASAT1_ART34011.1	Ssin_ASAT1_ART34011.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013714,0.001966
+Ssin_ASAT2_ART34012.1	Ssin_ASAT2_ART34012.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013726,0.001969
+Ssin_ASAT3_ART34013.1	Ssin_ASAT3_ART34013.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.844476,4.233807
+Ssin_ASAT5_ART34014.1	Ssin_ASAT5_ART34014.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013692,0.001957
+Sspl_5MAT1_AAL50566.1	Sspl_5MAT1_AAL50566.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.470510,4.266442
+Sspl_5MAT2_AAR26385.1	Sspl_5MAT2_AAR26385.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008724
+Stub_COSY_M0ZYT4	Stub_COSY_M0ZYT4	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-4.765081,4.469376
+Stub_FHT_NP_001275190.1	Stub_FHT_NP_001275190.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.387510,-5.475050
+Taes_ACT1-1_BCN87078.1	Taes_ACT1-1_BCN87078.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.392545,-4.742911
+Taes_ACT1-2_BCN87079.1	Taes_ACT1-2_BCN87079.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008726
+Taes_ACT2_AMY96376.1	Taes_ACT2_AMY96376.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.403120,-5.494449
+Tant_HQT1_QCI44191.1	Tant_HQT1_QCI44191.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010419,0.011939
+Tant_HQT2_QBQ52948.1	Tant_HQT2_QBQ52948.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	7.392762,-5.480754
+Tcan_TAX10_AAM75818.1	Tcan_TAX10_AAM75818.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-4.716212,4.428563
+Tcus_BAPT_AAL92459.1	Tcus_BAPT_AAL92459.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.011541,0.012606
+Tcus_DBAT_AAF27621.1	Tcus_DBAT_AAF27621.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011655,0.012675
+Tcus_TBT_AAG38049.1	Tcus_DBBT_AAG38049.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-4.587934,4.338705
+Tcus_DBNTBT_AAM75818.1	Tcus_DBNTBT_AAM75818.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-4.716212,4.428563
+Tcus_TAT_AAF34254.1	Tcus_TAT_AAF34254.1	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008734
+Tcus_TAX19_AAU89980.1	Tcus_TAX19_AAU89980.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013774,0.001983
+Tcus_TAT_AAF34254.1	Tcus_TAX1_AAF34254.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.825756,4.219504
+Tcus_TBT_AAG38049.1	Tcus_TBT_AAG38049.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.011942,0.012842
+Tmed_BAHD22_QDM39185.1	Tmed_BAHD22_QDM39185.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013711,0.001965
+Tmed_BAHD6-13_BEK82039.1	Tmed_BAHD6-13_BEK82039.1	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013704,0.001962
+Tmed_DBAT_QDM39186.1	Tmed_DBAT_QDM39186.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-4.353535,4.383380
+Tmed_TAT_QDM39184.1	Tmed_TAT_QDM39184.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.226227,3.824414
+Tpra_HST_ACI16630.1	Tpra_HCT1A_ACI16630.1	donor_type::aromatic	donor_type::aliphatic	1,0	0,1	-0.010169,0.011788
+Tpra_HMT_ACI16631.1	Tpra_HCT2_ACI16631.1	donor_type::aromatic	donor_type::aromatic;donor_type::aliphatic	1,0	1,1	0.013739,0.001970
+Tpra_HDT1_AXB87812.1	Tpra_HDT1_AXB87812.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.375054,-4.744231
+Tpra_HDT1_AXB87812.1	Tpra_HDT_AXB87812.1	donor_type::aromatic	donor_type::aromatic	1,0	1,0	5.375054,-4.744231
+Tpra_HMT_ACI16631.1	Tpra_HMT_ACI16631.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008724
+Tpra_HST_ACI16630.1	Tpra_HST_ACI16630.1	donor_type::aromatic		1,0	0,0	-0.025712,-0.008719
+Twal_DBAT_AFD32413.1	Twal_DBAT_AFD32413.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-2.873658,3.896958
+Vhyb_3MAT1_AAS77402.1	Vhyb_3MAT1_AAS77402.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.438756,4.104789
+Vlab_AMAT_AAW22989.1	Vlab_AMAT_AAW22989.1	donor_type::aromatic;donor_type::aliphatic		1,1	0,0	-0.025711,-0.008731
+Vvin_3AT_AKF15588.1	Vvin_3AT_AKF15588.1	donor_type::aromatic;donor_type::aliphatic	donor_type::aliphatic	1,1	0,1	-0.012582,0.013228
+Vvin_AAT2_CBI26419.3	Vvin_AAT2_CBI26419.3	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.055679,1.853899
+Vvin_SHT_QNO39112.1	Vvin_SHT_QNO39112.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008727
+Wlon_BAT1_NA	Wlon_BAT1_NA	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013722,0.001968
+Wlon_BAT2_NA	Wlon_BAT2_NA	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.618016,4.178576
+Wlon_BAT3_NA	Wlon_BAT3_NA	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	0.013721,0.001966
+Wvil_BAT1_WvBAHD8	Wvil_BAT1_WvBAHD8	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.013754,0.013934
+Wvil_BAT2_WvBAHD14	Wvil_BAT2_WvBAHD14	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-3.613769,4.177516
+Wvil_BAT3_WvBAHD39	Wvil_BAT3_WvBAHD39	donor_type::aliphatic		0,1	0,0	-0.025711,-0.008723
+Wvil_BAT4_WvBAHD40	Wvil_BAT4_WvBAHD40	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	1.453932,1.439633
+Wvil_BAT5_WvBAHD50	Wvil_BAT5_WvBAHD50	donor_type::aliphatic	donor_type::aromatic;donor_type::aliphatic	0,1	1,1	3.378553,0.399162
+Wvil_BAT6_WvBAHD28	Wvil_BAT6_WvBAHD28	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.010302,0.011867
+Zmay_AAT1_ONM11762.1	Zmay_AAT1_ONM11762.1	donor_type::aliphatic	donor_type::aliphatic	0,1	0,1	-0.014634,0.014439
+Zmay_CAT_ACF87722.1	Zmay_CAT_ACF87722.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008739
+Zmay_FMT_AQK78565.1	Zmay_FMT_AQK78565.1	donor_type::aromatic		1,0	0,0	-0.025711,-0.008732

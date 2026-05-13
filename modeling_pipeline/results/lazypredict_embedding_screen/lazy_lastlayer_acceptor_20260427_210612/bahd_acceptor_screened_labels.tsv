@@ -1,0 +1,24 @@
+label_idx	label	positive_count	negative_count
+13	acceptor_superclass::Phenolic acids (C6-C1)	78	288
+11	acceptor_superclass::Ornithine alkaloids	43	323
+5	acceptor_superclass::Flavonoids	42	324
+15	acceptor_superclass::Phenylpropanoids (C6-C3)	40	326
+4	acceptor_superclass::Fatty acyls	38	328
+16	acceptor_superclass::Pseudoalkaloids	28	338
+9	acceptor_superclass::Monoterpenoids	22	344
+14	acceptor_superclass::Phenylethanoids (C6-C2)	21	345
+18	acceptor_superclass::Small peptides	21	345
+10	acceptor_superclass::Naphthalenes	19	347
+2	acceptor_superclass::Diterpenoids	17	349
+3	acceptor_superclass::Fatty Acids and Conjugates	16	350
+21	acceptor_superclass::Tryptophan alkaloids	15	351
+22	acceptor_superclass::Tyrosine alkaloids	14	352
+6	acceptor_superclass::Isoflavonoids	12	354
+20	acceptor_superclass::Triterpenoids	9	357
+17	acceptor_superclass::Saccharides	7	359
+8	acceptor_superclass::Lysine alkaloids	5	361
+19	acceptor_superclass::Steroids	5	361
+12	acceptor_superclass::Phenanthrenoids	3	363
+1	acceptor_superclass::Cyclic polyketides	2	364
+0	acceptor_superclass::Coumarins	2	364
+7	acceptor_superclass::Lignans	2	364

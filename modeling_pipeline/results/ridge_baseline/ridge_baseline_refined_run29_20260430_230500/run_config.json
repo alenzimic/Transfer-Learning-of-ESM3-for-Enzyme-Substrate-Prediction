@@ -1,0 +1,19 @@
+{
+  "bahd_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "cv_mode": "kfold",
+  "dataset": "BAHD",
+  "device": "cpu",
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "output_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/results/ridge_baseline",
+  "pickle_models": false,
+  "random_seed": 44,
+  "ridge_params": {
+    "alpha": 0.58530895,
+    "class_weight": "balanced",
+    "fit_intercept": true
+  },
+  "run_name": "ridge_baseline_refined_run29_20260430_230500",
+  "ugt_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_dataset",
+  "write_predictions": true
+}

@@ -1,0 +1,18 @@
+{
+  "bahd_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "bahd_embedding_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_lastLayer_embeddings",
+  "dataset": "BAHD",
+  "embedding_glob": "*_hidden_layer_steps10.pt",
+  "max_labels": 0,
+  "min_positive_count": 2,
+  "output_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/results/lazypredict_embedding_screen",
+  "random_seed": 1,
+  "run_name": "lazy_lastlayer_donor_20260427_151725",
+  "script": "lazypredict_embedding_screen.py",
+  "standardize": true,
+  "task": "donor",
+  "test_size": 0.25,
+  "ugt_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_dataset",
+  "ugt_embedding_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_lastLayer_embeddings",
+  "write_per_label_predictions": false
+}

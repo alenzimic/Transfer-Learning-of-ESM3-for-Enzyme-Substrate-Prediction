@@ -1,0 +1,148 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_dataset",
+  "device": "cuda",
+  "family": "UGT",
+  "feature_type": "function_logits_sequence_flattened",
+  "kept_label_positive_counts": {
+    "donor_compound::GDP-D-glucose": 4,
+    "donor_compound::GDP-D-mannose": 4,
+    "donor_compound::TDP-glucose": 3,
+    "donor_compound::UDP": 3,
+    "donor_compound::UDP - Xyl": 42,
+    "donor_compound::UDP-Arabinose": 7,
+    "donor_compound::UDP-Araf": 2,
+    "donor_compound::UDP-D-Mannose": 4,
+    "donor_compound::UDP-Gal": 34,
+    "donor_compound::UDP-GlcNAc": 5,
+    "donor_compound::UDP-Rha": 13,
+    "donor_compound::UDP-b-L-Arap": 4,
+    "donor_compound::UDP-glucose": 258,
+    "donor_compound::UDP-glucuronic acid": 22
+  },
+  "kept_labels": [
+    "donor_compound::GDP-D-glucose",
+    "donor_compound::GDP-D-mannose",
+    "donor_compound::TDP-glucose",
+    "donor_compound::UDP",
+    "donor_compound::UDP - Xyl",
+    "donor_compound::UDP-Arabinose",
+    "donor_compound::UDP-Araf",
+    "donor_compound::UDP-D-Mannose",
+    "donor_compound::UDP-Gal",
+    "donor_compound::UDP-GlcNAc",
+    "donor_compound::UDP-Rha",
+    "donor_compound::UDP-b-L-Arap",
+    "donor_compound::UDP-glucose",
+    "donor_compound::UDP-glucuronic acid"
+  ],
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.1352348345755485,
+    "macro_auroc": 0.4775060196669813,
+    "micro_aupr": 0.15205545714277596,
+    "micro_auroc": 0.7854066794736299,
+    "num_folds": 5,
+    "num_labels": 14,
+    "num_samples": 482,
+    "per_label": [
+      {
+        "aupr": 0.017722360830276125,
+        "auroc": 0.32897489539748953,
+        "label": "donor_compound::GDP-D-glucose",
+        "positive_count": 4
+      },
+      {
+        "aupr": 0.03613999324527639,
+        "auroc": 0.6401673640167364,
+        "label": "donor_compound::GDP-D-mannose",
+        "positive_count": 4
+      },
+      {
+        "aupr": 0.004425346884303081,
+        "auroc": 0.07794015309672929,
+        "label": "donor_compound::TDP-glucose",
+        "positive_count": 3
+      },
+      {
+        "aupr": 0.005113669499058255,
+        "auroc": 0.2219902574808629,
+        "label": "donor_compound::UDP",
+        "positive_count": 3
+      },
+      {
+        "aupr": 0.5143528004812273,
+        "auroc": 0.8229437229437229,
+        "label": "donor_compound::UDP - Xyl",
+        "positive_count": 42
+      },
+      {
+        "aupr": 0.030951137821903375,
+        "auroc": 0.5609022556390978,
+        "label": "donor_compound::UDP-Arabinose",
+        "positive_count": 7
+      },
+      {
+        "aupr": 0.0034472775621367763,
+        "auroc": 0.10312500000000002,
+        "label": "donor_compound::UDP-Araf",
+        "positive_count": 2
+      },
+      {
+        "aupr": 0.007958520301002237,
+        "auroc": 0.3666317991631799,
+        "label": "donor_compound::UDP-D-Mannose",
+        "positive_count": 4
+      },
+      {
+        "aupr": 0.14062838228779184,
+        "auroc": 0.6328125,
+        "label": "donor_compound::UDP-Gal",
+        "positive_count": 34
+      },
+      {
+        "aupr": 0.018006391374833237,
+        "auroc": 0.48427672955974843,
+        "label": "donor_compound::UDP-GlcNAc",
+        "positive_count": 5
+      },
+      {
+        "aupr": 0.15550539844125336,
+        "auroc": 0.7357716909955716,
+        "label": "donor_compound::UDP-Rha",
+        "positive_count": 13
+      },
+      {
+        "aupr": 0.007209153791496423,
+        "auroc": 0.29916317991631797,
+        "label": "donor_compound::UDP-b-L-Arap",
+        "positive_count": 4
+      },
+      {
+        "aupr": 0.6156855855825084,
+        "auroc": 0.6200685215946843,
+        "label": "donor_compound::UDP-glucose",
+        "positive_count": 258
+      },
+      {
+        "aupr": 0.33614166595461215,
+        "auroc": 0.7903162055335967,
+        "label": "donor_compound::UDP-glucuronic acid",
+        "positive_count": 22
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "mlp_params": {
+    "batch_size": 16,
+    "dropout": 0.2,
+    "epochs": 100,
+    "hidden_dim": 256,
+    "learning_rate": 0.001,
+    "random_seed": 1,
+    "weight_decay": 0.0001
+  },
+  "n_splits": 5,
+  "pooling": "mean",
+  "task": "donor"
+}

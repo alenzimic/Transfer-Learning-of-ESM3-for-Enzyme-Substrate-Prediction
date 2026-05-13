@@ -1,0 +1,67 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "device": "cuda",
+  "embedding_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_lastLayer_embeddings",
+  "embedding_glob": "*_hidden_layer_steps10.pt",
+  "embedding_path_cache_key": "function_logit_paths",
+  "family": "BAHD",
+  "feature_type": "esm3_last_layer_embedding_transformer",
+  "hidden_feature_dim": 1536,
+  "input_shape_example": [
+    436,
+    1536
+  ],
+  "kept_label_positive_counts": {
+    "donor_type::aliphatic": 175,
+    "donor_type::aromatic": 213
+  },
+  "kept_labels": [
+    "donor_type::aromatic",
+    "donor_type::aliphatic"
+  ],
+  "max_residues": 869,
+  "mean_residues": 449.76502732240436,
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.5486813611485009,
+    "macro_auroc": 0.48442473821128873,
+    "micro_aupr": 0.5047289028045292,
+    "micro_auroc": 0.4669256473267802,
+    "num_folds": 5,
+    "num_labels": 2,
+    "num_samples": 366,
+    "per_label": [
+      {
+        "aupr": 0.6763382831193921,
+        "auroc": 0.5637485040964743,
+        "label": "donor_type::aromatic",
+        "positive_count": 213
+      },
+      {
+        "aupr": 0.42102443917760946,
+        "auroc": 0.40510097232610326,
+        "label": "donor_type::aliphatic",
+        "positive_count": 175
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "min_residues": 299,
+  "n_splits": 5,
+  "pooling": "mean",
+  "random_seed": 1,
+  "task": "donor",
+  "transformer_params": {
+    "batch_size": 8,
+    "d_model": 256,
+    "dropout": 0.0,
+    "epochs": 100,
+    "learning_rate": 0.00259409,
+    "n_heads": 8,
+    "n_layers": 3,
+    "pooling": "mean",
+    "random_seed": 1,
+    "weight_decay": 0.0001
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_dataset",
+  "device": "cuda",
+  "family": "UGT",
+  "feature_type": "function_logits_structure_steps10_mean_pool",
+  "kept_label_positive_counts": {
+    "donor_compound::GDP-D-glucose": 4,
+    "donor_compound::GDP-D-mannose": 4,
+    "donor_compound::TDP-glucose": 3,
+    "donor_compound::UDP": 3,
+    "donor_compound::UDP - Xyl": 42,
+    "donor_compound::UDP-Arabinose": 7,
+    "donor_compound::UDP-Araf": 2,
+    "donor_compound::UDP-D-Mannose": 4,
+    "donor_compound::UDP-Gal": 34,
+    "donor_compound::UDP-GlcNAc": 5,
+    "donor_compound::UDP-Rha": 13,
+    "donor_compound::UDP-b-L-Arap": 4,
+    "donor_compound::UDP-glucose": 258,
+    "donor_compound::UDP-glucuronic acid": 22
+  },
+  "kept_labels": [
+    "donor_compound::GDP-D-glucose",
+    "donor_compound::GDP-D-mannose",
+    "donor_compound::TDP-glucose",
+    "donor_compound::UDP",
+    "donor_compound::UDP - Xyl",
+    "donor_compound::UDP-Arabinose",
+    "donor_compound::UDP-Araf",
+    "donor_compound::UDP-D-Mannose",
+    "donor_compound::UDP-Gal",
+    "donor_compound::UDP-GlcNAc",
+    "donor_compound::UDP-Rha",
+    "donor_compound::UDP-b-L-Arap",
+    "donor_compound::UDP-glucose",
+    "donor_compound::UDP-glucuronic acid"
+  ],
+  "logistic_params": {
+    "C": 0.1,
+    "class_weight": "balanced",
+    "fit_intercept": true,
+    "max_iter": 5000,
+    "penalty": "l2",
+    "solver": "liblinear",
+    "tol": 1e-06
+  },
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.16203422924274338,
+    "macro_auroc": 0.5988440858433014,
+    "micro_aupr": 0.27866974972119196,
+    "micro_auroc": 0.846669119063885,
+    "num_folds": 5,
+    "num_labels": 14,
+    "num_samples": 482,
+    "per_label": [
+      {
+        "aupr": 0.0069983829386129,
+        "auroc": 0.2850418410041841,
+        "label": "donor_compound::GDP-D-glucose",
+        "positive_count": 4
+      },
+      {
+        "aupr": 0.03761092814503708,
+        "auroc": 0.8723849372384938,
+        "label": "donor_compound::GDP-D-mannose",
+        "positive_count": 4
+      },
+      {
+        "aupr": 0.004835149557603046,
+        "auroc": 0.16701461377870563,
+        "label": "donor_compound::TDP-glucose",
+        "positive_count": 3
+      },
+      {
+        "aupr": 0.006959256362990553,
+        "auroc": 0.40501043841336115,
+        "label": "donor_compound::UDP",
+        "positive_count": 3
+      },
+      {
+        "aupr": 0.5598768768465835,
+        "auroc": 0.8400974025974026,
+        "label": "donor_compound::UDP - Xyl",
+        "positive_count": 42
+      },
+      {
+        "aupr": 0.08905447087207716,
+        "auroc": 0.795187969924812,
+        "label": "donor_compound::UDP-Arabinose",
+        "positive_count": 7
+      },
+      {
+        "aupr": 0.020202020202020204,
+        "auroc": 0.896875,
+        "label": "donor_compound::UDP-Araf",
+        "positive_count": 2
+      },
+      {
+        "aupr": 0.006943612585849809,
+        "auroc": 0.28190376569037656,
+        "label": "donor_compound::UDP-D-Mannose",
+        "positive_count": 4
+      },
+      {
+        "aupr": 0.25016488773724893,
+        "auroc": 0.6441701680672269,
+        "label": "donor_compound::UDP-Gal",
+        "positive_count": 34
+      },
+      {
+        "aupr": 0.08288517416535993,
+        "auroc": 0.690146750524109,
+        "label": "donor_compound::UDP-GlcNAc",
+        "positive_count": 5
+      },
+      {
+        "aupr": 0.13346720051161226,
+        "auroc": 0.7374118418894539,
+        "label": "donor_compound::UDP-Rha",
+        "positive_count": 13
+      },
+      {
+        "aupr": 0.00685360043094921,
+        "auroc": 0.2740585774058577,
+        "label": "donor_compound::UDP-b-L-Arap",
+        "positive_count": 4
+      },
+      {
+        "aupr": 0.6215949556445317,
+        "auroc": 0.6375968992248062,
+        "label": "donor_compound::UDP-glucose",
+        "positive_count": 258
+      },
+      {
+        "aupr": 0.44103269339793116,
+        "auroc": 0.8569169960474308,
+        "label": "donor_compound::UDP-glucuronic acid",
+        "positive_count": 22
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "random_seed": 1,
+  "task": "donor"
+}

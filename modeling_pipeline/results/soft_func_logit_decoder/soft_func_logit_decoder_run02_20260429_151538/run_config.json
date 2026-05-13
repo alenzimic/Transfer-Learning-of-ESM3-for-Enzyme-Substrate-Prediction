@@ -1,0 +1,42 @@
+{
+  "bahd_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "cv_mode": "kfold",
+  "dataset": "BAHD",
+  "decoder_params": {
+    "batch_size": 8,
+    "d_model": 256,
+    "dropout": 0.0,
+    "epochs": 100,
+    "learning_rate": 0.00287562,
+    "n_heads": 4,
+    "n_layers": 1,
+    "pooling": "mean",
+    "random_seed": 1,
+    "temperature": 5.0,
+    "weight_decay": 0.0001
+  },
+  "device": "cuda",
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "output_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/results/soft_func_logit_decoder",
+  "results_written": [
+    {
+      "family": "BAHD",
+      "metrics_file": "bahd_donor_metrics.json",
+      "model_file": null,
+      "predictions_file": "bahd_donor_predictions.tsv",
+      "task": "donor"
+    },
+    {
+      "family": "BAHD",
+      "metrics_file": "bahd_acceptor_metrics.json",
+      "model_file": null,
+      "predictions_file": "bahd_acceptor_predictions.tsv",
+      "task": "acceptor"
+    }
+  ],
+  "run_name": "soft_func_logit_decoder_run02_20260429_151538",
+  "save_models": false,
+  "ugt_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_dataset",
+  "write_predictions": true
+}

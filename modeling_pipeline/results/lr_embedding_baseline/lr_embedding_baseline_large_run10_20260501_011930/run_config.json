@@ -1,0 +1,45 @@
+{
+  "bahd_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "bahd_embedding_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_lastLayer_embeddings",
+  "cv_mode": "kfold",
+  "dataset": "BAHD",
+  "device": "cuda",
+  "embedding_glob": "*_hidden_layer_steps10.pt",
+  "feature_type": "esm3_last_layer_embedding_mean_pool",
+  "logistic_params": {
+    "C": 0.1,
+    "class_weight": "balanced",
+    "fit_intercept": true,
+    "max_iter": 5000,
+    "penalty": "l2",
+    "solver": "liblinear",
+    "tol": 1e-06
+  },
+  "manual_multilabel_loop": true,
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "output_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/results/lr_embedding_baseline",
+  "pickle_models": false,
+  "pooling": "mean",
+  "random_seed": 43,
+  "results_written": [
+    {
+      "family": "BAHD",
+      "metrics_file": "bahd_donor_metrics.json",
+      "model_file": null,
+      "predictions_file": null,
+      "task": "donor"
+    },
+    {
+      "family": "BAHD",
+      "metrics_file": "bahd_acceptor_metrics.json",
+      "model_file": null,
+      "predictions_file": null,
+      "task": "acceptor"
+    }
+  ],
+  "run_name": "lr_embedding_baseline_large_run10_20260501_011930",
+  "ugt_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_dataset",
+  "ugt_embedding_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_lastLayer_embeddings",
+  "write_predictions": false
+}

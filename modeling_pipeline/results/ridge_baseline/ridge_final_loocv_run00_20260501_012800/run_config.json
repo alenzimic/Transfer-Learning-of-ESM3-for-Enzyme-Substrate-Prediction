@@ -1,0 +1,19 @@
+{
+  "bahd_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "cv_mode": "loocv",
+  "dataset": "BAHD",
+  "device": "cpu",
+  "min_positive_count": 2,
+  "n_splits": null,
+  "output_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/results/ridge_baseline",
+  "pickle_models": false,
+  "random_seed": 45,
+  "ridge_params": {
+    "alpha": 0.47612701,
+    "class_weight": "balanced",
+    "fit_intercept": true
+  },
+  "run_name": "ridge_final_loocv_run00_20260501_012800",
+  "ugt_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_dataset",
+  "write_predictions": true
+}

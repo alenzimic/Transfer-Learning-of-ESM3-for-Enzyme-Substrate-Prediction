@@ -1,0 +1,11 @@
+{
+  "cv_mode": "kfold",
+  "dataset": "BAHD",
+  "feature_type": "function_logits",
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "num_classifiers": 15,
+  "random_seed": 42,
+  "results_path": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/results/classifier_screen/screen_function_logits_20260429_203234/screen_results.tsv",
+  "task": "both"
+}

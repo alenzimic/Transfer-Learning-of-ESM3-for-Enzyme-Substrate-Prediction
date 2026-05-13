@@ -1,0 +1,39 @@
+{
+  "bahd_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "cv_mode": "kfold",
+  "dataset": "BAHD",
+  "device": "cuda",
+  "min_positive_count": 2,
+  "mlp_params": {
+    "batch_size": 16,
+    "dropout": 0.1,
+    "epochs": 500,
+    "hidden_dim": 64,
+    "learning_rate": 0.00893809,
+    "random_seed": 1,
+    "weight_decay": 0.001
+  },
+  "n_splits": 5,
+  "output_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/results/mlp_baseline",
+  "pooling": "attention",
+  "results_written": [
+    {
+      "family": "BAHD",
+      "metrics_file": "bahd_donor_metrics.json",
+      "model_file": null,
+      "predictions_file": "bahd_donor_predictions.tsv",
+      "task": "donor"
+    },
+    {
+      "family": "BAHD",
+      "metrics_file": "bahd_acceptor_metrics.json",
+      "model_file": null,
+      "predictions_file": "bahd_acceptor_predictions.tsv",
+      "task": "acceptor"
+    }
+  ],
+  "run_name": "mlp_baseline_run05_20260429_005101",
+  "save_models": false,
+  "ugt_dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/UGT_dataset",
+  "write_predictions": true
+}

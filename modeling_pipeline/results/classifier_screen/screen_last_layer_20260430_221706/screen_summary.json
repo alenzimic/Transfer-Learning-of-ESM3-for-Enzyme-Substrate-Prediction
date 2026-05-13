@@ -1,0 +1,11 @@
+{
+  "cv_mode": "kfold",
+  "dataset": "BAHD",
+  "feature_type": "last_layer",
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "num_classifiers": 15,
+  "random_seed": 42,
+  "results_path": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/results/classifier_screen/screen_last_layer_20260430_221706/screen_results.tsv",
+  "task": "both"
+}

@@ -1,0 +1,55 @@
+{
+  "cv_mode": "kfold",
+  "dataset_dir": "/content/drive/MyDrive/CS_5782_Final_Project/code_and_data/BAHD_dataset",
+  "decoder_params": {
+    "batch_size": 8,
+    "d_model": 256,
+    "dropout": 0.1,
+    "epochs": 100,
+    "learning_rate": 0.00056669,
+    "n_heads": 8,
+    "n_layers": 3,
+    "pooling": "mean",
+    "random_seed": 1,
+    "temperature": 0.5,
+    "weight_decay": 0.0001
+  },
+  "device": "cuda",
+  "family": "BAHD",
+  "feature_type": "function_logits_sequence_softmax_decoder",
+  "kept_label_positive_counts": {
+    "donor_type::aliphatic": 175,
+    "donor_type::aromatic": 213
+  },
+  "kept_labels": [
+    "donor_type::aromatic",
+    "donor_type::aliphatic"
+  ],
+  "metrics": {
+    "cv_mode": "kfold",
+    "macro_aupr": 0.5893512353437407,
+    "macro_auroc": 0.5245799451949007,
+    "micro_aupr": 0.5879780514559154,
+    "micro_auroc": 0.5305344941261089,
+    "num_folds": 5,
+    "num_labels": 2,
+    "num_samples": 366,
+    "per_label": [
+      {
+        "aupr": 0.6553614002373401,
+        "auroc": 0.5402743256927183,
+        "label": "donor_type::aromatic",
+        "positive_count": 213
+      },
+      {
+        "aupr": 0.5233410704501413,
+        "auroc": 0.508885564697083,
+        "label": "donor_type::aliphatic",
+        "positive_count": 175
+      }
+    ]
+  },
+  "min_positive_count": 2,
+  "n_splits": 5,
+  "task": "donor"
+}

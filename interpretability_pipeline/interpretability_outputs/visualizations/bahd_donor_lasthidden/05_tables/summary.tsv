@@ -1,0 +1,3 @@
+label	n_total_proteins	n_constant_models	score_mean	score_std	score_min	score_max	n_positive_above_threshold	positive_score_threshold
+donor_type::aromatic	334	0	-0.06111473130608747	5.71901388065534	-14.770352363586426	8.606022834777832	186	0.0
+donor_type::aliphatic	334	0	0.20805205145995773	6.176954101569059	-11.318380355834961	14.465312957763672	168	0.0
