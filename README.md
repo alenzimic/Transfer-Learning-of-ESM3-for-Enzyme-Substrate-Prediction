@@ -140,6 +140,10 @@ For interpretability, the final linear model was decomposed into per-feature and
 
 Generative AI was used in this assignment as a tool for analysis, coding, syntax, grammar, and debugging.
 
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
 ## Glossary
 
 - Enzyme: A protein that catalyzes a specific chemical reaction.
