@@ -12,39 +12,43 @@ The main task is multi-label classification under strong class imbalance and lim
 
 ```text
 .
-├── Datasets/
+├── README.md
+├── code/
+│   ├── requirements.txt
+│   ├── modeling_pipeline/           # Feature extraction, model screening, and baselines
+│   └── interpretability_pipeline/   # Residue-level and feature-position interpretability scripts
+├── data/
 │   ├── BAHD_dataset.xlsx
-│   └── UGT_dataset.tsv
-├── modeling_pipeline/
-│   ├── *.py                         # Feature extraction, model screening, baselines
-│   ├── *.ipynb                      # Colab / analysis notebooks
-│   ├── reference/                   # Reference ESM3 notebooks
-│   ├── figures/                     # Final comparison figures
-│   └── results/                     # Saved model metrics, predictions, and model artifacts
-├── interpretability_pipeline/
-│   ├── *.py                         # Residue-level and feature-position interpretability scripts
-│   ├── analysis_outputs/            # Generated interpretability figures/tables
-│   ├── final_analysis_plots/        # Final supplemental plots
-│   └── interpretability_outputs/    # Per-protein attribution and visualization outputs
-├── requirements.txt
-└── README.md
+│   ├── UGT_dataset.tsv
+│   └── README.md
+├── results/
+│   ├── modeling_pipeline/           # Model metrics, predictions, model artifacts, and figures
+│   ├── interpretability_pipeline/   # Generated interpretability figures/tables
+│   └── README.md
+├── poster/
+│   └── DL_poster.pdf
+├── report/
+│   ├── final_report.md
+│   └── final_report.pdf
+├── LICENSE
+└── .gitignore
 ```
 
-The two timestamped Google Drive export folders were renamed to `modeling_pipeline/` and `interpretability_pipeline/` for readability. No source code was edited.
+The original modeling and interpretability export folders were reorganized under `code/` and `results/` so the repository matches the required submission structure. Source code contents were not modified.
 
 ## Data and Feature Inputs
 
-The curated source tables are included in `Datasets/`:
+The curated source tables are included in `data/`:
 
 - `BAHD_dataset.xlsx`: curated BAHD enzyme-substrate metadata used for training and validation.
 - `UGT_dataset.tsv`: curated UGT enzyme-substrate metadata used as a held-out cross-family test set.
 
 Several scripts expect compact tensor caches generated during preprocessing:
 
-- `modeling_pipeline/BAHD_dataset/labels.pt`
-- `modeling_pipeline/UGT_dataset/labels.pt`
-- `modeling_pipeline/BAHD_lastLayer_embeddings/*_hidden_layer_steps10.pt`
-- `modeling_pipeline/UGT_lastLayer_embeddings/*_hidden_layer_steps10.pt`
+- `code/modeling_pipeline/BAHD_dataset/labels.pt`
+- `code/modeling_pipeline/UGT_dataset/labels.pt`
+- `code/modeling_pipeline/BAHD_lastLayer_embeddings/*_hidden_layer_steps10.pt`
+- `code/modeling_pipeline/UGT_lastLayer_embeddings/*_hidden_layer_steps10.pt`
 - function-logit tensors referenced by the `function_logit_path` fields
 
 Those tensor caches are not the same as the raw source tables. They are generated from the dataset tables, PDB structures, and ESM3 inference. Saved results and figures are included so the project can be reviewed without rerunning ESM3.
@@ -56,7 +60,7 @@ Create an environment and install the Python dependencies:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r code/requirements.txt
 ```
 
 ESM3 feature extraction requires ESM model access and an `HF_TOKEN` environment variable:
@@ -70,9 +74,9 @@ export HF_TOKEN=<your_huggingface_token>
 Extract ESM3 last hidden layer features from PDB structures:
 
 ```bash
-python modeling_pipeline/extract_esm3_hidden_layer.py \
+python code/modeling_pipeline/extract_esm3_hidden_layer.py \
   --input_dir path/to/pdb_structures \
-  --output_dir modeling_pipeline/BAHD_lastLayer_embeddings \
+  --output_dir code/modeling_pipeline/BAHD_lastLayer_embeddings \
   --num_steps 10 \
   --device cuda
 ```
@@ -80,7 +84,7 @@ python modeling_pipeline/extract_esm3_hidden_layer.py \
 Screen baseline classifiers on mean-pooled ESM3 features:
 
 ```bash
-python modeling_pipeline/classifier_screen.py \
+python code/modeling_pipeline/classifier_screen.py \
   --feature_type last_layer \
   --dataset BAHD \
   --task both \
@@ -91,7 +95,7 @@ python modeling_pipeline/classifier_screen.py \
 Train the final logistic-regression baseline on mean-pooled ESM3 last-layer embeddings:
 
 ```bash
-python modeling_pipeline/train_lr_embedding_baseline.py \
+python code/modeling_pipeline/train_lr_embedding_baseline.py \
   --dataset BAHD \
   --cv_mode kfold \
   --n_splits 5 \
@@ -102,10 +106,10 @@ python modeling_pipeline/train_lr_embedding_baseline.py \
 Run the interpretability pipeline after placing the required tensor caches and final model pickles in the expected locations:
 
 ```bash
-python interpretability_pipeline/run_full_analysis.py \
-  --root_dir interpretability_pipeline \
-  --metrics_dir modeling_pipeline/results/lr_embedding_baseline/lr_ll_final_5fold_run00_20260509_200740 \
-  --predictions_dir modeling_pipeline/results/lr_embedding_baseline/lr_ll_final_5fold_run00_20260509_200740
+python code/interpretability_pipeline/run_full_analysis.py \
+  --root_dir code/interpretability_pipeline \
+  --metrics_dir results/modeling_pipeline/lr_embedding_baseline/lr_ll_final_5fold_run00_20260509_200740 \
+  --predictions_dir results/modeling_pipeline/lr_embedding_baseline/lr_ll_final_5fold_run00_20260509_200740
 ```
 
 ## Key Results
@@ -119,11 +123,11 @@ Final BAHD 5-fold cross-validation results from the last-hidden-layer logistic-r
 
 Relevant saved outputs:
 
-- Final BAHD CV metrics: `modeling_pipeline/results/lr_embedding_baseline/lr_ll_final_5fold_run00_20260509_200740/`
-- Final full BAHD model artifacts: `modeling_pipeline/results/lr_embedding_baseline/lr_ll_final_full_run00_20260509_201316/`
-- UGT comparison figures: `modeling_pipeline/figures/`
-- Interpretability figures: `interpretability_pipeline/analysis_outputs/writeup_figures/`
-- Discriminative feature-position tables: `interpretability_pipeline/analysis_outputs/discriminative_features_full/`
+- Final BAHD CV metrics: `results/modeling_pipeline/lr_embedding_baseline/lr_ll_final_5fold_run00_20260509_200740/`
+- Final full BAHD model artifacts: `results/modeling_pipeline/lr_embedding_baseline/lr_ll_final_full_run00_20260509_201316/`
+- UGT comparison figures: `results/modeling_pipeline/figures/`
+- Interpretability figures: `results/interpretability_pipeline/analysis_outputs/writeup_figures/`
+- Discriminative feature-position tables: `results/interpretability_pipeline/analysis_outputs/discriminative_features_full/`
 
 ## Method Summary
 
